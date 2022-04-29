@@ -1,17 +1,18 @@
 geral = []
 aluno = []
 nota = []
-
+cont = 1
 # Coleta dos Dados
 
 while True:
-    aluno.append(str(input("Digite o nome do aluno: ")))
+    aluno.append(str(input(f"Digite o nome {cont} aluno: ")))
     for c in range(0, 2):
         nota.append(float(input(f"Digite a {c+1}° nota: ")))   
     aluno.append(nota.copy())
     geral.append(aluno.copy())
     nota.clear()
-    aluno.clear()   
+    aluno.clear() 
+    cont +=1  
     resp = str(input("Deseja continuar[S/N]:")).upper()
     print("-=" * 30)
     if resp == "N":
