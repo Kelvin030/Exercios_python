@@ -5,7 +5,7 @@ cont = 1
 # Coleta dos Dados
 
 while True:
-    aluno.append(str(input(f"Digite o nome {cont} aluno: ")))
+    aluno.append(str(input(f"Digite o nome {cont}° aluno: ")))
     for c in range(0, 2):
         nota.append(float(input(f"Digite a {c+1}° nota: ")))   
     aluno.append(nota.copy())
