@@ -22,7 +22,7 @@ while True:
 
 for a in geral:
     media = (a[1][0] + a[1][1]) / 2
-    print(f"O aluno(a){a[0]}, tirou {media} na media")
+    print(f"O aluno(a) {a[0]}, tirou {media} na media")
     media = 0
 print("-=" * 30)
 
