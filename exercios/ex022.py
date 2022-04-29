@@ -1,0 +1,10 @@
+nome = str(input('digite seu nome completo: ')).strip()
+t = nome.split()
+n = ''.join(t)
+n1 = len(n)
+n2 = t[0]
+n3 = len(n2)
+print(f'seu nome com letras maiuculas:{nome.upper()}')
+print(f'seu nome com letras minusculas: {nome.upper()}')
+print(f'seu nome tem {n1} letras')
+print(f'seu primeiro nome tem {n3} letra')
