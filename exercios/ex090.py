@@ -1,6 +1,3 @@
-from ast import alias
-
-
 aluno = {}
 aluno['nome'] = str(input("Nome: "))
 aluno['nota'] = float(input('Nota Medía: '))
