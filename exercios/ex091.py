@@ -21,4 +21,3 @@ ranking = sorted(jogadores.items(), key=itemgetter(1), reverse=True)
 for c, v in enumerate(ranking):
     print(f'{c+1}º Lugar: {v[0]} com {v[1]} pontos')
     sleep(1)
-
