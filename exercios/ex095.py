@@ -47,4 +47,3 @@ while True:
         print(f'---> Levantamento do jogador de {l[u]["nome"].upper()}: ')
         for k,v in enumerate(l[u]["gols"]):
             print(f'No jogo {k+1} fez {v} gol(s)!')
-
