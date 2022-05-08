@@ -7,6 +7,8 @@ def sorteia(lista):
     for n in lista:
         print(n, end=' ')
     print('PRONTO!!!')
+
+
 def somapar(lista):
     soma = 0
     for value in lista:
