@@ -11,7 +11,7 @@ def notas(*n, sit=False):
     situação['maior'] = max(n)
     situação['menor'] = min(n)
     situação['media'] = (sum(n)) / len(n)
-    if sit == True:
+    if sit:
         if situação['media'] <= 5:
             situação['situação'] = 'RUIM'
         elif situação['media'] < 7:
