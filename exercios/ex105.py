@@ -18,7 +18,7 @@ def notas(*n, sit=False):
             situação['situação'] = 'RAZOÁVEL'
         elif situação['media'] >= 8:
             situação['situação'] = 'BOM'
-    return situação
+    return print(situação)
 
 
 # Programa Principal
