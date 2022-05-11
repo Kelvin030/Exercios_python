@@ -14,3 +14,7 @@ def aumentar(porcentagem,valor):
 def diminuir(porcentagem,valor):
     dimin = (valor * porcentagem) / 100
     return valor - dimin
+
+
+def moeda(preço=0,moeda='R$'):
+    return f'{moeda} {preço:.2f}'.replace('.', ',')
