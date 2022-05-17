@@ -1,6 +1,6 @@
 # Desafio: Criar uma calculadora utilizando class
 class Calculadora:
-    def __init__(self,):
+    def __init__(self):
         pass
 
     def adição(self, a=1, b=1):
