@@ -57,4 +57,3 @@ while True:
         break
     else:
         print('Opção digitada invalida')
-    
